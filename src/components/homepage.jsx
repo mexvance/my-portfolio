@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import logo from '../logo.svg';
+import '../App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+const HomePage = props =>{
+    return(
+        <>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           My Portfolio, More to come soon!
@@ -18,9 +17,8 @@ function App() {
         >
           Visit my Github!
         </a>
-      </header>
-    </div>
-  );
-}
+        </>
+    );
+};
 
-export default App;
+export default HomePage;

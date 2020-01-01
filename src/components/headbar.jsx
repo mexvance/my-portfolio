@@ -12,11 +12,8 @@ const HeadBar = props =>{
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
             
-            <LinkContainer to="/home">
-              <Navbar.Brand>Michael Vance</Navbar.Brand>
-            </LinkContainer>
-            <LinkContainer to="/home">
-              <Nav.Link>Home</Nav.Link>
+            <LinkContainer to="/">
+              <Navbar.Brand className="brand">Michael Vance</Navbar.Brand>
             </LinkContainer>
             <LinkContainer to="/resume">
               <Nav.Link>Resume</Nav.Link>

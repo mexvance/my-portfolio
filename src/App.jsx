@@ -12,7 +12,7 @@ function App() {
     <HeadBar/>
       <header className="App-header">
       <Switch>
-        <Route exact path="/home" component={HomePage}/>
+        <Route exact path="/" component={HomePage}/>
         <Route path="/resume" component={Resume}/>
         <Route path="/portfolio" component={Portfolio}/>
       </Switch>

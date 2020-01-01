@@ -2,17 +2,28 @@ import * as React from "react";
 import {withRouter} from "react-router-dom";
 import '../css/headbar.css';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-
+import {LinkContainer} from 'react-router-bootstrap';
+import {Link} from 'react-router-dom';
 const HeadBar = props =>{
     return(
       <>
         <Navbar bg="dark" variant="dark" expand="lg">
-          <Navbar.Brand href="/" >Michael Vance</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/#/">Home</Nav.Link>
-              <Nav.Link href="/#/resume">Resume</Nav.Link>
+            
+            <LinkContainer to="/home">
+              <Navbar.Brand>Michael Vance</Navbar.Brand>
+            </LinkContainer>
+            <LinkContainer to="/home">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/resume">
+              <Nav.Link>Resume</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/portfolio">
+              <Nav.Link>Portfolio</Nav.Link>
+            </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

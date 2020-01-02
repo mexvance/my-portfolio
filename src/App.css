@@ -39,7 +39,8 @@
   overflow: hidden;
   background: url(resources/geometric.png),
               url(resources/hexagon.png);
-              background-size: auto 100%;
+              background-size: 120% auto, auto 100%;
+              background-repeat: no-repeat, repeat;
 }
 .part-00{
   width: 100%;

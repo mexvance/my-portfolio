@@ -3,6 +3,7 @@ import logo from '../logo.svg';
 import '../App.css';
 
 const HomePage = props =>{
+  
   const paralaxMove = event =>{
     let xPos = event.pageX;
     let yPos = event.pageY;

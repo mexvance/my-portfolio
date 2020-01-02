@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "094174ef2f039fd549580ca19df35b59",
+    "revision": "906bd139d97584ed4cfa154a341cb16e",
     "url": "/my-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/css/2.a1f70397.chunk.css"
   },
   {
-    "revision": "089bafe5ac744566c751",
-    "url": "/my-portfolio/static/css/main.a187c7f7.chunk.css"
+    "revision": "9c151a5f6915f81799f8",
+    "url": "/my-portfolio/static/css/main.6b85998c.chunk.css"
   },
   {
     "revision": "f3f2add08c175f11fb99",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.410b27d4.chunk.js.LICENSE"
   },
   {
-    "revision": "089bafe5ac744566c751",
+    "revision": "9c151a5f6915f81799f8",
     "url": "/my-portfolio/static/js/main.377523ba.chunk.js"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/geometricBg.170f1701.png"
   },
   {
-    "revision": "d7c80b474b4a8a1d0a8182899d2b5b8a",
-    "url": "/my-portfolio/static/media/hexagon.d7c80b47.png"
+    "revision": "1e25c8bbd601124e9dfdbfbf8b9652fb",
+    "url": "/my-portfolio/static/media/hexagon.1e25c8bb.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",

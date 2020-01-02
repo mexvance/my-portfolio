@@ -33,6 +33,20 @@
   text-shadow: 0px 2px 5px black;
 }
 
+.part-01 {
+  width: 100%;
+  height: calc(100vh - 6px);
+  overflow: hidden;
+  background: url(resources/geometric.png),
+              url(resources/hexagon.png);
+              background-size: auto 100%;
+}
+.part-00{
+  width: 100%;
+  background: url(resources/geometricBg.png);
+  background-size: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate3d(0, 1, 0, 0deg);

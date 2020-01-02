@@ -11,16 +11,15 @@ const HeadBar = props =>{
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            
-            <LinkContainer to="/">
-              <Navbar.Brand className="brand">Michael Vance</Navbar.Brand>
-            </LinkContainer>
-            <LinkContainer to="/resume">
-              <Nav.Link>Resume</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/portfolio">
-              <Nav.Link>Portfolio</Nav.Link>
-            </LinkContainer>
+              <LinkContainer to="/">
+                <Navbar.Brand className="brand">Michael Vance</Navbar.Brand>
+              </LinkContainer>
+              <LinkContainer to="/resume">
+                <Nav.Link>Resume</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/portfolio">
+                <Nav.Link>Portfolio</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

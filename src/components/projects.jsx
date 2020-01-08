@@ -1,36 +1,18 @@
 import * as React from 'react';
-import "../css/projects.css"
-import { bindActionCreators } from "redux";
-import { connect } from "react-redux";
-import * as actionCreators from "../store/actions/projectList";
-import ProjectCard from "./shared/projectCard.jsx"
+import "../css/projects.css";
+import ProjectCard from "./shared/projectCard.jsx";
+import projectArray from "./shared/projectListLocal";
+import {withRouter} from "react-router-dom";
 
 const Projects = props=> {
-    console.log(props)
     return(
         <>
         <div className="grid-container">
-        
-          {/* {props.recipes.map((recipe, index) => (
-            <ProjectCard recipe={recipe} key={index} />
-          ))} */}
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>
+          {projectArray.map((project, key) => (
+            <ProjectCard project={project} key={key} />
+          ))}
         </div>
         </>
     );  
 };
-
-// const mapStateToProps = state => {
-//   return {
-//     projects: state.projects
-//   };
-// };
-
-//  export default connect(
-//    mapStateToProps,
-//    dispatch => bindActionCreators(actionCreators, dispatch)
-//  )(Projects);
  export default Projects;

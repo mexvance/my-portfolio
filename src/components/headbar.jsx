@@ -1,9 +1,8 @@
 import * as React from "react";
 import {withRouter} from "react-router-dom";
 import '../css/headbar.css';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
-import {Link} from 'react-router-dom';
 const HeadBar = props =>{
     return(
       <>
@@ -14,9 +13,9 @@ const HeadBar = props =>{
               <LinkContainer to="/">
                 <Navbar.Brand className="brand">Michael Vance</Navbar.Brand>
               </LinkContainer>
-              <LinkContainer to="/about">
+              {/* <LinkContainer to="/about">
                 <Nav.Link>About</Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
               <LinkContainer to="/projects">
                 <Nav.Link>Projects</Nav.Link>
               </LinkContainer>

@@ -1,7 +1,7 @@
 import * as React from "react";
-import '../css/resume.css';
+import '../css/about.css';
 
-const Resume = props =>{
+const About = props =>{
     return(
         <>
         <div className="bodyblock">
@@ -37,4 +37,4 @@ const Resume = props =>{
     );
 };
 
-export default Resume;
+export default About;

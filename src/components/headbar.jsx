@@ -14,11 +14,11 @@ const HeadBar = props =>{
               <LinkContainer to="/">
                 <Navbar.Brand className="brand">Michael Vance</Navbar.Brand>
               </LinkContainer>
-              <LinkContainer to="/resume">
-                <Nav.Link>Resume</Nav.Link>
+              <LinkContainer to="/about">
+                <Nav.Link>About</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/portfolio">
-                <Nav.Link>Portfolio</Nav.Link>
+              <LinkContainer to="/projects">
+                <Nav.Link>Projects</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

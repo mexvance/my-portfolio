@@ -6,10 +6,10 @@ const ProjectCard = props =>{
     const [isShown, setIsShown] = React.useState(false);
     return(
         <>
-        <div className="grid-item" 
+        <div className="grid-item clickableBox" 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
-            onClick={()=>{console.log(`/projects/${props.project[4]}`)}}>
+            onClick={()=>{window.open(props.project[2], '_blank')}}>
         <div className="projectCard" style={{"backgroundImage":`url(${props.project[3]})`}}>
         </div>
         <TransitionGroup>
@@ -30,7 +30,6 @@ const ProjectCard = props =>{
         </TransitionGroup>
         <div className="overlay"></div>
         </div>
-        
         </>
     );
 };

@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-    <HeadBar/>
+      <HeadBar/>
       <header className="App-header">
       <Switch>
         <Route exact path="/" component={HomePage}/>

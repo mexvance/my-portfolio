@@ -4,7 +4,7 @@
     padding: 10px;
     width: 100%;
   }
-  .grid-item {
+.grid-item {
     background-color: rgba(56, 65, 81, .5);
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 2px;
@@ -15,20 +15,27 @@
     transition: box-shadow .4s, background-color .4s;
     color: white;
     position: relative;
-  }
-  .grid-item:hover {
+}
+.grid-item:hover {
     background-color: rgba(56, 65, 81, 1);
     box-shadow: 10px 10px 0px rgba(112, 38, 50, 1) , 20px 20px 0px #61dafb;
-  }
-  .projectCard{
+}
+.clickableBox{
+    cursor: pointer;
+}
+.projectPageBody{
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+.projectCard{
       background-size: cover;
       background-repeat: no-repeat;
       background-color: transparent;
       height: 100%;
       width: 100%;
       
-  }
-  .cardTitle{
+}.cardTitle{
     position: absolute;
     left: 0;
     right: 0;
@@ -38,8 +45,8 @@
     background-color: rgb(3, 78, 99,.9);
     max-height: 100%;
     overflow: hidden;
-  }
-  .overlay{
+}
+.overlay{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -47,8 +54,8 @@
     background: linear-gradient(rgba(0, 0, 0,1), rgba(0, 0, 0, .4));
     opacity: .6;
     transition: all .5s;
-  }
-  .overlay:hover{
+}
+.overlay:hover{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -63,11 +70,13 @@
     background-color: rgba(195, 241, 253,.2);
     bottom: 0;
 }
-  @media (max-width: 1000px) {
+
+@media (max-width: 1000px) {
     .grid-container {
         grid-template-columns: auto;
     }
 }
+
 @media (min-width: 1700px) {
     .grid-container {
         grid-template-columns: auto auto auto;

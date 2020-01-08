@@ -1,5 +1,7 @@
 import GreenBean from "../../resources/projects/greenbeancard.PNG"
 import Portfolio from "../../resources/projects/portfoliocard.PNG"
+import pokeGUI from "../../resources/projects/pokeguicard.PNG"
+import aspCMS from "../../resources/projects/aspCMScard.PNG"
 
 const projectList = [
   ["Project GreenBean",
@@ -8,10 +10,20 @@ const projectList = [
         GreenBean,
         "greenbean"],
   ["Personal Portfolio", 
-        "Created with React/HTML/CSS/JS to form a simple web interface to show off my skills", 
-        "mexvance.github.io", 
+        "Created with React/HTML/CSS/JS to form a simple single page web application to show my projects, hosted on GitHub pages", 
+        "https://mexvance.github.io", 
         Portfolio,
-        "portfolio"]
+        "portfolio"],
+  ["Pokemon GUI", 
+        "Created with XAML in C#, integrates with REST APIs as well as integration with PDF and Excel formats", 
+        "https://github.com/mexvance/PokeGUI", 
+        pokeGUI,
+        "pokegui"],
+    ["ASP.NET CMS", 
+        "Created with C# and ASP.NET, This project has user authentication, a postgres database, SignalR, and much more", 
+        "https://github.com/mexvance/CMSWebPageCreator", 
+        aspCMS,
+        "pokegui"]
 ];
 
 export default projectList;

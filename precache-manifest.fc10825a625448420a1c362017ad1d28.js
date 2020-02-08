@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21ff7b4f1f514a22752ec04ff5d9716b",
+    "revision": "8530f1c76ed73780c1337415de7159be",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "2016b7f123d2ae745a74",
+    "revision": "341f2d783e95d27fe6c2",
     "url": "/my-portfolio/static/css/2.f76af334.chunk.css"
   },
   {
-    "revision": "2d0a61fb6ef83a158941",
-    "url": "/my-portfolio/static/css/main.965d8503.chunk.css"
+    "revision": "8d501e28ca5e2a51196d",
+    "url": "/my-portfolio/static/css/main.96a41b6f.chunk.css"
   },
   {
-    "revision": "2016b7f123d2ae745a74",
-    "url": "/my-portfolio/static/js/2.f1f95f20.chunk.js"
+    "revision": "341f2d783e95d27fe6c2",
+    "url": "/my-portfolio/static/js/2.08a620ce.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/my-portfolio/static/js/2.f1f95f20.chunk.js.LICENSE"
+    "url": "/my-portfolio/static/js/2.08a620ce.chunk.js.LICENSE"
   },
   {
-    "revision": "2d0a61fb6ef83a158941",
-    "url": "/my-portfolio/static/js/main.9b61132f.chunk.js"
+    "revision": "8d501e28ca5e2a51196d",
+    "url": "/my-portfolio/static/js/main.5d9b0da8.chunk.js"
   },
   {
     "revision": "4184a7eacb7c48bd5c06",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/geometric.91ab4c69.png"
   },
   {
-    "revision": "170f17019c6ea0de48f78bc34a4813ba",
-    "url": "/my-portfolio/static/media/geometricBg.170f1701.png"
+    "revision": "7e82975df49eefd42d3e99054913dd27",
+    "url": "/my-portfolio/static/media/geometricBg.7e82975d.png"
   },
   {
     "revision": "1ea098ee7e282c168947f93c97ba3054",

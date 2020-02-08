@@ -1,5 +1,5 @@
 import * as React from "react";
-import logo from '../mike.jpg';
+import logo from '../mikeIcon.jpg';
 import '../App.css';
 
 const HomePage = props =>{
@@ -11,7 +11,6 @@ const HomePage = props =>{
   } 
     return(
         <>
-        <div className="part-00">
         <div id="part-01" className="part-01" onMouseMove={event=>paralaxMove(event)}>
           <img src={logo} className="App-logo" alt="logo"/>
         <p className="title">
@@ -25,7 +24,6 @@ const HomePage = props =>{
         >
           Click here to visit my Github! 
         </a>
-        </div>
         </div>
         </>
     );

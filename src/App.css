@@ -9,18 +9,16 @@
   .App-logo {
     border-radius: 90em;
     margin-top: 2em;
-    box-shadow: 2px 5px 15px black;
-    transform: rotate3d(0,0,0,0deg);
+    box-shadow: 2px 5px 20px black;
     transition: all 1s ease-out;
-  }
-  .App-logo:hover {
-    transform: rotate3d(1, 0, 0, 20deg);
-    box-shadow: 2px 10px 20px black;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,6 +50,7 @@
 .part-00{
   width: 100%;
   background: url(resources/geometricBg.png);
+
   background-size: cover;
 }
 

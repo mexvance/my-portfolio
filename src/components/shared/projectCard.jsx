@@ -9,7 +9,10 @@ const ProjectCard = props =>{
         <div className="grid-item clickableBox" 
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
-            onClick={()=>{window.open(props.project[2], '_blank')}}>
+            // onClick={()=>{window.open(props.project[2], '_blank')}}>
+            // onClick={()=>{props.history.push(`/projects/${props.project[3]}`)}}
+            //onClick=()=>
+            >
         <div className="projectCard" style={{"backgroundImage":`url(${props.project[3]})`}}>
         </div>
         <TransitionGroup>

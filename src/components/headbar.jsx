@@ -6,7 +6,7 @@ import {LinkContainer} from 'react-router-bootstrap';
 const HeadBar = props =>{
     return(
       <>
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" className="navbar">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

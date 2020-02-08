@@ -1,3 +1,6 @@
 .brand{
     color: #61dafb!important;
 }
+.navbar{
+    box-shadow: 0 2px 4px black;
+}

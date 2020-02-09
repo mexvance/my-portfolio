@@ -1,7 +1,8 @@
 import * as React from "react";
 import logo from '../mikeIcon.jpg';
 import '../App.css';
-
+import '../css/homepage.css';
+import { MdArrowForward } from "react-icons/md";
 const HomePage = props =>{
   const paralaxMove = event =>{
     let xPos = event.pageX;
@@ -11,19 +12,25 @@ const HomePage = props =>{
   } 
     return(
         <>
-        <div id="part-01" className="part-01" onMouseMove={event=>paralaxMove(event)}>
-          <img src={logo} className="App-logo" alt="logo"/>
-        <p className="title">
-          Mike Vance
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/mexvance/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click here to visit my Github! 
-        </a>
+        <div className="part-00">
+          <div id="part-01" className="part-01" onMouseMove={event=>paralaxMove(event)}>
+            <div className="Header-Title">
+              <p className="title">
+                Hi, I'm <span>Mike Vance</span> 
+              </p>
+              <p className="title2">I'm a Software Developer</p>
+              <button>
+                About Me 
+                <span className="arrowIcon">
+                  <MdArrowForward/>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="About-Me">
+        <p>About Me</p>
+        <img src={logo} className="App-logo" alt="logo"/>
         </div>
         </>
     );

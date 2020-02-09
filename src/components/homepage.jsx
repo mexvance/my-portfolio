@@ -44,10 +44,14 @@ const HomePage = props =>{
         </div>
       </div>
       <div id="about" ref={ref} className="About-Me">
+      <div className="About-Title">
       <h1>About Me</h1>
+      </div>
       <img src={logo} className="App-logo" alt="logo"/>
-      <p></p>
-     
+      <div className="About-Description">
+      <p>Hi, I'm Mike. I'm a Software Engineer/Developer, skilled in C#, C++, React, and much more.</p>
+      <p> I work hard to create clean, professional, functional software and websites.</p>
+      </div>
 
       </div>
       </>

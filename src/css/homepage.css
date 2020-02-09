@@ -84,4 +84,10 @@
 .button:hover .icon{
     transform: rotate(90deg);
 }  
- 
+ .About-Description{
+     margin:auto;
+     padding: 15px;
+ }
+ .About-Title{
+     padding-top: 15px;
+ }

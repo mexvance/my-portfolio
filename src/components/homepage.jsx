@@ -27,7 +27,7 @@ const HomePage = props =>{
       <div className="part-00">
         <div id="part-01" className="part-01" onMouseMove={ref=>paralaxMove(ref)}>
         
-          <div className="Header-Title">
+          <div className="flex">
           
             <p className="title">
               Hi, I'm <span>Mike Vance</span> 
@@ -44,11 +44,13 @@ const HomePage = props =>{
         </div>
       </div>
       <div id="about" ref={ref} className="About-Me">
-      <div className="About-Title">
-      <h1>About Me</h1>
+      <div className="About-Title flex">
+      <div>ABOUT</div>
+      <div className="title-bar"></div>
       </div>
       <img src={logo} className="App-logo" alt="logo"/>
-      <div className="About-Description">
+      <div className="About-Description flex">
+      <div className="separator-bar"></div>
       <p>Hi, I'm Mike. I'm a Software Engineer/Developer, skilled in C#, C++, React, and much more.</p>
       <p> I work hard to create clean, professional, functional software and websites.</p>
       </div>

@@ -14,7 +14,7 @@
     background: url(../resources/geometricBg.png); 
     background-size: cover;
   }
-  .Header-Title{
+  .flex{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -41,20 +41,20 @@
     text-shadow: 0px 2px 3px black;
   }
   .App-logo {
-    height: 40vmin;
+    height: 45vmin;
   }
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       border-radius: 90em;
-      margin-top: 2em;
       box-shadow: 2px 5px 20px black;
       transition: all 1s ease-out;
     }
   }
 
   .About-Me{
-      background-color: white;
       color: black;
+      background-color: #61dafb;
+background-image: -webkit-linear-gradient(100deg, #a7ecff 35%, #f8f8f8 30%);
   }
   .button {
     border: 2px solid #fff;
@@ -90,4 +90,18 @@
  }
  .About-Title{
      padding-top: 15px;
+     font-size: 30pt;
+    color: #444649;
+ }
+ .title-bar{
+    background: #444649;
+    height: 4px;
+    margin: 25px 0 75px 0;
+    width: 70px;
+ }
+ .separator-bar{
+    background: #444649;
+    height: 4px;
+    margin: 25px 0 75px 0;
+    width: 60%;
  }

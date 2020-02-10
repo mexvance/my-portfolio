@@ -26,7 +26,7 @@ const HomePage = props =>{
           <div className="flex">
           
             <p className="title">
-              <span>Code</span> is the glue that binds <span>People</span> together
+              <span>Code</span> brings <span>People</span> together
             </p>
             <p className="title2"></p>
             <div href="about" className="button" type="button"

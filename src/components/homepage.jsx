@@ -52,7 +52,7 @@ const HomePage = props =>{
       <div className="About-Description flex">
       <div className="separator-bar"></div>
       <p>Hi, I'm Mike. I'm a Software Engineer/Developer, skilled in C#, C++, React, and much more.</p>
-      <p> I make ideas into reality, binding people together with my skills.</p>
+      <p> I develop code because I want to connect those around me. Code is the way that I can accomplish that goal.</p>
       </div>
       </div>
       </div>

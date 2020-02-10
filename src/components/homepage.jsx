@@ -15,17 +15,13 @@ const HomePage = props =>{
     ref.current.scrollIntoView({
           behavior: 'smooth',
           block: 'start',
-        });;
-    // event.current.scrollIntoView({
-    //   behavior: 'smooth',
-    //   block: 'start',
-    // });
+        });
   };
   return(
       <>
       <div className="background">
       <div className="part-00">
-        <div id="part-01" className="part-01" onMouseMove={ref=>paralaxMove(ref)}>
+        <div id="part-01" className="part-01" onMouseMove={event=>paralaxMove(event)}>
         
           <div className="flex">
           
@@ -34,7 +30,7 @@ const HomePage = props =>{
             </p>
             <p className="title2"></p>
             <div href="about" className="button" type="button"
-            onClick={(event) => handleClick(event)}>
+            onClick={() => handleClick()}>
               Let me show you why
               <span className="arrowIcon">
                 <MdArrowForward className="icon"/>

@@ -9,8 +9,7 @@ const HomePage = props =>{
   const paralaxMove = event =>{
     let xPos = event.pageX;
     let yPos = event.pageY;
-    event.currentTarget.style.backgroundPosition = -xPos/4 + "px " + -yPos/4 + "px," +
-                                                   xPos/12 + "px " + yPos/12 + "px";
+    event.currentTarget.style.backgroundPosition = -xPos/90 + "px " + -yPos/90 + "px";
   } 
   const handleClick = () =>{
     ref.current.scrollIntoView({
@@ -24,18 +23,19 @@ const HomePage = props =>{
   };
   return(
       <>
+      <div className="background">
       <div className="part-00">
         <div id="part-01" className="part-01" onMouseMove={ref=>paralaxMove(ref)}>
         
           <div className="flex">
           
             <p className="title">
-              Hi, I'm <span>Mike Vance</span> 
+              <span>Code</span> is the glue that binds <span>People</span> together
             </p>
-            <p className="title2">I'm a Software Developer</p>
+            <p className="title2"></p>
             <div href="about" className="button" type="button"
             onClick={(event) => handleClick(event)}>
-              About Me 
+              Let me show you why
               <span className="arrowIcon">
                 <MdArrowForward className="icon"/>
               </span>
@@ -45,16 +45,16 @@ const HomePage = props =>{
       </div>
       <div id="about" ref={ref} className="About-Me">
       <div className="About-Title flex">
-      <div>ABOUT</div>
+      <div>WHY I WRITE CODE</div>
       <div className="title-bar"></div>
       </div>
       <img src={logo} className="App-logo" alt="logo"/>
       <div className="About-Description flex">
       <div className="separator-bar"></div>
       <p>Hi, I'm Mike. I'm a Software Engineer/Developer, skilled in C#, C++, React, and much more.</p>
-      <p> I work hard to create clean, professional, functional software and websites.</p>
+      <p> I make ideas into reality, binding people together with my skills.</p>
       </div>
-
+      </div>
       </div>
       </>
   );

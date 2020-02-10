@@ -1,18 +1,21 @@
+.background{
+    background: black;
+}
 .part-01 {
     width: 100%;
     height: calc(100vh - 6px);
     overflow: hidden;
-
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: url(../resources/action-blur-bulb-dark-355904.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .part-00{
     width: 100%;
-    background: url(../resources/geometricBg.png); 
-    background-size: cover;
   }
   .flex{
     align-items: center;
@@ -31,6 +34,7 @@
   .title span{
     color: #61dafb;
     text-shadow: 0px 2px 5px rgb(27, 27, 27);
+    font-style: italic;
   }
   .App-link {
     color: #61dafb;
@@ -54,7 +58,7 @@
   .About-Me{
       color: black;
       background-color: #61dafb;
-background-image: -webkit-linear-gradient(100deg, #a7ecff 35%, #f8f8f8 30%);
+background-image: -webkit-linear-gradient(100deg, #49d8ff 35%, #b4b4b4 30%);
   }
   .button {
     border: 2px solid #fff;
@@ -66,6 +70,7 @@ background-image: -webkit-linear-gradient(100deg, #a7ecff 35%, #f8f8f8 30%);
     transition: all 0.5s;
     background: transparent;
     color: white;
+    background: rgba(0, 0, 0,.7);
   }
 .button:hover{
     background: #0090b8;
@@ -87,20 +92,21 @@ background-image: -webkit-linear-gradient(100deg, #a7ecff 35%, #f8f8f8 30%);
  .About-Description{
      margin:auto;
      padding: 15px;
+     color: #35393d;
  }
  .About-Title{
      padding-top: 15px;
      font-size: 30pt;
-    color: #444649;
+    color: #35393d;
  }
  .title-bar{
-    background: #444649;
+    background: #35393d;
     height: 4px;
-    margin: 25px 0 75px 0;
-    width: 70px;
+    margin: 15px 0 60px 0;
+    width: 100px;
  }
  .separator-bar{
-    background: #444649;
+    background: #35393d;
     height: 4px;
     margin: 25px 0 75px 0;
     width: 60%;

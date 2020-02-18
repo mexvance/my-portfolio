@@ -26,7 +26,8 @@ const HomePage = props =>{
           <div className="flex">
           
             <p className="title">
-              <span>Code</span> brings <span>People</span> together
+            <div>I Believe</div>
+              <span>Code</span> should bring <span>People</span> together
             </p>
             <p className="title2"></p>
             <div href="about" className="button" type="button"
@@ -40,6 +41,7 @@ const HomePage = props =>{
         </div>
       </div>
       <div id="about" ref={ref} className="About-Me">
+      <div className="About-Me2">
       <div className="About-Title flex">
       <div>WHY I WRITE CODE</div>
       <div className="title-bar"></div>
@@ -47,8 +49,13 @@ const HomePage = props =>{
       <img src={logo} className="App-logo" alt="logo"/>
       <div className="About-Description flex">
       <div className="separator-bar"></div>
-      <p>Hi, I'm Mike. I'm a Software Engineer/Developer, skilled in C#, C++, React, and much more.</p>
-      <p> I develop code because I want to connect those around me. Code is the way that I can accomplish that goal.</p>
+      <div className="about-content">
+      <p className="description-title">Hi, I'm Mike Vance, </p>
+      <p>I develop code because I want to help people connect and improve their lives through technology.</p>
+       <p>I love creating solutions to problems that help bring people together and make their lives easier.</p>
+      <p>To accomplish this goal, I have learned to use many different tools such as C#, C++, Javascript, React, and much more.</p>
+      </div>
+      </div>
       </div>
       </div>
       </div>

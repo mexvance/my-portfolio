@@ -13,17 +13,17 @@ const projectList = [
         "Created with React/HTML/CSS/JS to form a simple single page web application to show my projects, hosted on GitHub pages", 
         "https://mexvance.github.io", 
         Portfolio,
-        "portfolio"],
+        "PersonalPortfolio"],
   ["Pokemon GUI", 
         "Created with XAML in C#, integrates with REST APIs as well as integration with PDF and Excel formats", 
         "https://github.com/mexvance/PokeGUI", 
         pokeGUI,
-        "pokegui"],
+        "Pokedex"],
     ["ASP.NET CMS", 
         "Created with C# and ASP.NET, This project has user authentication, a postgres database, SignalR, and much more", 
         "https://github.com/mexvance/CMSWebPageCreator", 
         aspCMS,
-        "pokegui"]
+        "AspCMS"]
 ];
 
 export default projectList;

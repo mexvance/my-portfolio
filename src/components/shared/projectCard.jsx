@@ -1,4 +1,5 @@
 import * as React from "react";
+import { withRouter } from 'react-router'
 import '../../css/projects.css';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
@@ -10,7 +11,7 @@ const ProjectCard = props =>{
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
             // onClick={()=>{window.open(props.project[2], '_blank')}}>
-            // onClick={()=>{props.history.push(`/projects/${props.project[3]}`)}}
+             onClick={()=>{props.history.push(`/projects/${props.project[4]}`)}}
             //onClick=()=>
             >
         <div className="projectCard" style={{"backgroundImage":`url(${props.project[3]})`}}>
@@ -37,4 +38,4 @@ const ProjectCard = props =>{
     );
 };
 
-export default ProjectCard;
+export default withRouter(ProjectCard);

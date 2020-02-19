@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c731eda3.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.081d54fb.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.081d54fb.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.27db2333.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.caa28173.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.caa28173.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4a96037b.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4a96037b.js.map",
     "static/css/2.a1f70397.chunk.css": "/my-portfolio/static/css/2.a1f70397.chunk.css",
-    "static/js/2.d0198fee.chunk.js": "/my-portfolio/static/js/2.d0198fee.chunk.js",
-    "static/js/2.d0198fee.chunk.js.map": "/my-portfolio/static/js/2.d0198fee.chunk.js.map",
+    "static/js/2.dbf79eb4.chunk.js": "/my-portfolio/static/js/2.dbf79eb4.chunk.js",
+    "static/js/2.dbf79eb4.chunk.js.map": "/my-portfolio/static/js/2.dbf79eb4.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.29919041e056c1191f482131630d025c.js": "/my-portfolio/precache-manifest.29919041e056c1191f482131630d025c.js",
+    "precache-manifest.6d36c5357f069d55e4f4c3d6a8b33205.js": "/my-portfolio/precache-manifest.6d36c5357f069d55e4f4c3d6a8b33205.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.a1f70397.chunk.css.map": "/my-portfolio/static/css/2.a1f70397.chunk.css.map",
-    "static/css/main.c731eda3.chunk.css.map": "/my-portfolio/static/css/main.c731eda3.chunk.css.map",
-    "static/js/2.d0198fee.chunk.js.LICENSE": "/my-portfolio/static/js/2.d0198fee.chunk.js.LICENSE",
+    "static/css/main.27db2333.chunk.css.map": "/my-portfolio/static/css/main.27db2333.chunk.css.map",
+    "static/js/2.dbf79eb4.chunk.js.LICENSE": "/my-portfolio/static/js/2.dbf79eb4.chunk.js.LICENSE",
     "static/media/homepage.css": "/my-portfolio/static/media/action-blur-bulb-dark-355904.eb058e9d.jpg",
     "static/media/aspCMScard.PNG": "/my-portfolio/static/media/aspCMScard.3d750296.PNG",
     "static/media/greenbeancard.PNG": "/my-portfolio/static/media/greenbeancard.1ea098ee.PNG",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.4a96037b.js",
     "static/css/2.a1f70397.chunk.css",
-    "static/js/2.d0198fee.chunk.js",
-    "static/css/main.c731eda3.chunk.css",
-    "static/js/main.081d54fb.chunk.js"
+    "static/js/2.dbf79eb4.chunk.js",
+    "static/css/main.27db2333.chunk.css",
+    "static/js/main.caa28173.chunk.js"
   ]
 }

@@ -18,8 +18,8 @@ const HomePage = props =>{
         });
   };
   return(
-      <>
-      <div className="background">
+    <>
+    <div className="background">
       <div className="part-00">
         <div id="part-01" className="part-01" onMouseMove={event=>paralaxMove(event)}>
         
@@ -41,25 +41,25 @@ const HomePage = props =>{
         </div>
       </div>
       <div id="about" ref={ref} className="About-Me">
-      <div className="About-Me2">
-      <div className="About-Title flex">
-      <div>WHY I WRITE CODE</div>
-      <div className="title-bar"></div>
+        <div className="About-Me2">
+          <div className="About-Title flex">
+            <div>WHY I WRITE CODE</div>
+            <div className="title-bar"></div>
+          </div>
+          <img src={logo} className="App-logo" alt="logo"/>
+          <div className="About-Description flex">
+          <div className="separator-bar"></div>
+          <div className="about-content">
+            <p className="description-title">Hi, I'm Mike Vance, </p>
+            <p>I develop code because I want to help people connect and improve their lives through technology.</p>
+            <p>I love creating solutions to problems that help bring people together and make their lives easier.</p>
+            <p>To accomplish this goal, I have learned to use many different tools such as C#, C++, Javascript, React, and much more.</p>
+          </div>
+        </div>
       </div>
-      <img src={logo} className="App-logo" alt="logo"/>
-      <div className="About-Description flex">
-      <div className="separator-bar"></div>
-      <div className="about-content">
-      <p className="description-title">Hi, I'm Mike Vance, </p>
-      <p>I develop code because I want to help people connect and improve their lives through technology.</p>
-       <p>I love creating solutions to problems that help bring people together and make their lives easier.</p>
-      <p>To accomplish this goal, I have learned to use many different tools such as C#, C++, Javascript, React, and much more.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </>
+    </div>
+    </div>
+    </>
   );
 };
 

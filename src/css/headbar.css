@@ -3,12 +3,15 @@
 }
 .navbar{
     box-shadow: 0 2px 4px black;
+    font-size: 14pt;
+    
 }
 .sticky {
     position: sticky;
     top: 0;
-    width: 100%;
-}
-.sticky + .content {
+    z-index: 1;
+  }
+  
+  .sticky + .content {
     padding-top: 60px;
   }

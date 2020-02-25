@@ -2,6 +2,7 @@ import * as React from "react";
 import logo from '../mikeIcon.jpg';
 import '../App.css';
 import '../css/homepage.css';
+import HeadBar from './headbar.jsx'
 import { MdArrowForward } from "react-icons/md";
 const HomePage = props =>{
   
@@ -9,7 +10,7 @@ const HomePage = props =>{
   const paralaxMove = event =>{
     let xPos = event.pageX;
     let yPos = event.pageY;
-    event.currentTarget.style.backgroundPosition = -xPos/90 + "px " + -yPos/90 + "px";
+    event.currentTarget.style.backgroundPosition = -xPos/90 + "px " + -yPos/200 + "px";
   } 
   const handleClick = () =>{
     ref.current.scrollIntoView({
@@ -40,7 +41,10 @@ const HomePage = props =>{
           </div>
         </div>
       </div>
-      <div id="about" ref={ref} className="About-Me">
+      <div ref={ref} className="sticky">
+      <HeadBar />
+      </div>
+      <div id="about" className="About-Me">
         <div className="About-Me2">
           <div className="About-Title flex">
             <div>WHY I WRITE CODE</div>

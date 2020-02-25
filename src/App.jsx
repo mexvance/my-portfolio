@@ -11,14 +11,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-    
-      <HeadBar/>
       <div className="App-body">
           <Switch>
             <Route exact path="/" component={HomePage}/>
+            <div>
             <Route path="/about" component={About}/>
+            <HeadBar/>
             <Route exact path="/projects" component={Projects}/>
             <ProjectRoutingComponent/>
+            </div>
           </Switch>
       </div>
     </div>

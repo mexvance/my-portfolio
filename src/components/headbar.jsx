@@ -22,14 +22,7 @@ const HeadBar = props =>{
                 <Nav.Link>About</Nav.Link>
               </LinkContainer> */}
               <LinkContainer to="/projects">
-                <NavDropdown title="Projects">
-                  <NavDropdown.Item bg="dark" onClick={() => pushLink("/projects")}>Projects Home</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item className="nav-dropdown" onClick={() => pushLink("/projects/aspCMS")}>ASP.NET CMS</NavDropdown.Item>
-                  <NavDropdown.Item className="nav-dropdown" onClick={() => pushLink("/projects/Pokedex")}>Pokedex</NavDropdown.Item>
-                  <NavDropdown.Item className="nav-dropdown" onClick={() => pushLink("/projects/greenbean")}>Project GreenBean</NavDropdown.Item>
-                  <NavDropdown.Item className="nav-dropdown" onClick={() => pushLink("/projects/personalPortfolio")}>Personal Portfolio</NavDropdown.Item>
-                </NavDropdown>
+                  <Nav.Link bg="dark" onClick={() => pushLink("/projects")}>Projects</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

@@ -7,8 +7,10 @@ const HeadBar = props =>{
     const pushLink = linkName =>{
       props.history.push(linkName);
     }
+
     return(
       <>
+      <div className="sticky">
         <Navbar bg="dark" variant="dark" expand="lg" className="navbar">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -32,6 +34,7 @@ const HeadBar = props =>{
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        </div>
       </>
     );
 };

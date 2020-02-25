@@ -4,3 +4,11 @@
 .navbar{
     box-shadow: 0 2px 4px black;
 }
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+  }

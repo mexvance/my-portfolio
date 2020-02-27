@@ -1,3 +1,5 @@
+@import './palette.scss';
+
 .part-01 {
     width: calc(100vw +10px);
     height: calc(100vh - 55px);
@@ -6,7 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../resources/action-blur-bulb-dark-355904.jpg); 
+    background: url(../resources/action-blur-bulb-dark-355904.jpg), rgba(0, 0, 0,.5); 
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -29,7 +32,7 @@
     text-shadow: 0px 2px 3px black;
   }
   .title span{
-    color: #61dafb;
+    color: $Blue2Light;
     text-shadow: 0px 2px 5px rgb(27, 27, 27);
     font-style: italic;
   }
@@ -38,11 +41,11 @@
     margin-top: -5px;
   }
   .App-link {
-    color: #61dafb;
+    color: $Blue2Light;
   }
   .App-link:hover{
     text-decoration: none;
-    color: #1bccfd;
+    color: $Blue2Light;
     text-shadow: 0px 2px 3px black;
   }
   .App-logo {
@@ -59,12 +62,12 @@
 .About-Me2{
       color: black;
       background-color: transparent;
-    background-image: -webkit-linear-gradient(104deg, #61dafb 30%, transparent 20%);
+    background-image: -webkit-linear-gradient(104deg, $sand 30%, transparent 20%);
 }
 .About-Me{
     color: black;
-    background-color: white;
-  background-image: -webkit-linear-gradient(45deg, red 22%, transparent 22%);
+    background-color: $silver;
+  background-image: -webkit-linear-gradient(45deg, $mainBlue 22%, transparent 22%);
 }
 .description-title{
   text-align: center;
@@ -83,8 +86,8 @@
   background: rgba(0, 0, 0,.7);
 }
 .button:hover{
-    background: #0090b8;
-    border: 2px solid #0090b8; 
+    background: $Blue2;
+    border: 2px solid $Blue2; 
     
   }
   .arrowIcon{
@@ -102,12 +105,12 @@
  .About-Description{
      margin:auto;
      padding: 15px;
-     color: #35393d;
+     color: black;
  }
  .About-Title{
      padding-top: 15px;
      font-size: 30pt;
-    color: #35393d;
+    color: black;
  }
 .about-content
 {
@@ -120,13 +123,13 @@
   transition: width ease-out .5s;
 }
  .title-bar{
-    background: #35393d;
+    background: black;
     height: 4px;
     margin: 15px 0 60px 0;
     width: 100px;
  }
  .separator-bar{
-    background: #35393d;
+    background: black;
     height: 4px;
     margin: 25px 0 75px 0;
     width: 60%;

@@ -1,5 +1,7 @@
+@import './palette.scss';
+
 .brand{
-    color: #61dafb!important;
+    color: $Blue2Light!important;
 }
 .navbar{
     box-shadow: 0 2px 4px black;

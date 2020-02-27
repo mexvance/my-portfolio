@@ -1,15 +1,15 @@
 import * as React from "react";
-import { withRouter } from 'react-router'
-import '../css/headbar.scss';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import {LinkContainer} from 'react-router-bootstrap';
-const HeadBar = props =>{
-    const pushLink = linkName =>{
-      props.history.push(linkName);
-    }
+import { withRouter } from "react-router";
+import "../css/headbar.scss";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
+const HeadBar = props => {
+  const pushLink = linkName => {
+    props.history.push(linkName);
+  };
 
-    return(
-      <>
+  return (
+    <>
       <div className="sticky">
         <Navbar bg="dark" variant="dark" expand="lg" className="navbar">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,14 +22,16 @@ const HeadBar = props =>{
                 <Nav.Link>About</Nav.Link>
               </LinkContainer> */}
               <LinkContainer to="/projects">
-                  <Nav.Link bg="dark" onClick={() => pushLink("/projects")}>Projects</Nav.Link>
+                <Nav.Link bg="dark" onClick={() => pushLink("/projects")}>
+                  Projects
+                </Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        </div>
-      </>
-    );
+      </div>
+    </>
+  );
 };
 
 export default withRouter(HeadBar);

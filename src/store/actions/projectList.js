@@ -1,3 +1,3 @@
 export const ProjectList = {
-    projects: []
+  projects: []
 };

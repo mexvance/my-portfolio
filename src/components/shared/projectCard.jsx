@@ -1,6 +1,6 @@
 import * as React from "react";
 import { withRouter } from 'react-router'
-import '../../css/projects.css';
+import '../../css/projects.scss';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 const ProjectCard = props =>{

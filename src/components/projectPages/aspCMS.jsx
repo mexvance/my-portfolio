@@ -1,5 +1,5 @@
 import * as React from 'react'
-import "../../css/projects.css";
+import "../../css/projects.scss";
 import aspCMSMainImage from "../../resources/projects/aspCMScard.PNG"
 
 const AspCMS = props =>{

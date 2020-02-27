@@ -1,6 +1,6 @@
 import * as React from "react";
 import { withRouter } from 'react-router'
-import '../css/headbar.css';
+import '../css/headbar.scss';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 const HeadBar = props =>{

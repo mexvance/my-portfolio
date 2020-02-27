@@ -1,5 +1,5 @@
 import * as React from 'react';
-import "../css/projects.css";
+import "../css/projects.scss";
 import ProjectCard from "./shared/projectCard.jsx";
 import projectArray from "./shared/projectListLocal";
 

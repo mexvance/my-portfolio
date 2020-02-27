@@ -1,7 +1,7 @@
 import * as React from "react";
 import logo from '../mikeIcon.jpg';
-import '../App.css';
-import '../css/homepage.css';
+import '../App.scss';
+import '../css/homepage.scss';
 import HeadBar from './headbar.jsx'
 import { MdArrowForward } from "react-icons/md";
 const HomePage = props =>{

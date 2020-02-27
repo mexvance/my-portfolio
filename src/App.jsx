@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import HeadBar from './components/headbar.jsx';
 import About from './components/about.jsx';
 import HomePage from './components/homepage.jsx';

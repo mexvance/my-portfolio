@@ -1,19 +1,18 @@
 @import './palette.scss';
 
 .brand{
-    color: $Blue2Light!important;
+  color: $Blue2Light!important;
 }
 .navbar{
-    box-shadow: 0 2px 4px black;
-    font-size: 14pt;
-    
+  box-shadow: 0 2px 4px black;
+  font-size: 14pt;
 }
 .sticky {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  }
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}

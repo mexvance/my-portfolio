@@ -92,14 +92,15 @@
   
   .button{
   padding: 10px 20px;
-  clip-path: circle(0% at 0% 0%);
-  transition: clip-path .4s ease-in-out;
-  background: $Blue2;
+  //clip-path: circle(0% at 0% 0%);
+  //transition: clip-path .4s ease-in-out;
+  //background: $Blue2;
+  transition: all .5s;
   }
   &:hover{
     .button{
-      
-  clip-path: circle(160% at 0% 0%);
+      background: $Blue2;
+  //clip-path: circle(160% at 0% 0%);
     }
   
     transition: all 0.5s;

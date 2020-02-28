@@ -78,22 +78,36 @@
   text-align: center;
   font-size: 2em;
 }
-.button {
+.buttonBackground {
   border: 2px solid #fff;
   box-sizing: inherit;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
-  padding: 10px 20px;
+ 
   transition: all 0.5s;
   background: transparent;
   color: white;
   background: rgba(0, 0, 0, 0.7);
-}
-.button:hover {
+  
+  .button{
+  padding: 10px 20px;
+  clip-path: circle(0% at 0% 0%);
+  transition: clip-path .4s ease-in-out;
   background: $Blue2;
-  border: 2px solid $Blue2;
+  }
+  &:hover{
+    .button{
+      
+  clip-path: circle(160% at 0% 0%);
+    }
+  
+    transition: all 0.5s;
+    border: 2px solid $Blue2;
+  }
+  
 }
+
 .arrowIcon {
   padding-left: 10px;
   font-size: 1.2em;

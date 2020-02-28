@@ -33,16 +33,18 @@ const HomePage = props => {
                 <span>Code</span> should bring <span>People</span> together
               </p>
               <p className="title2"></p>
-              <div
-                href="about"
-                className="button"
-                type="button"
-                onClick={() => handleClick()}
-              >
-                Let me show you why
-                <span className="arrowIcon">
-                  <MdArrowForward className="icon" />
-                </span>
+              <div className="buttonBackground">
+                <div
+                  href="about"
+                  className="button"
+                  type="button"
+                  onClick={() => handleClick()}
+                >
+                  Let me show you why
+                  <span className="arrowIcon">
+                    <MdArrowForward className="icon" />
+                  </span>
+                </div>
               </div>
             </div>
           </div>

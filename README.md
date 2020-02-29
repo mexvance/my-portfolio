@@ -1,4 +1,4 @@
-# This project was developed to display my skills.
+# This project was developed to display my skills as a developer through an online portfolio.
 
 It was created using react and SASS.
 

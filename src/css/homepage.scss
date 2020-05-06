@@ -51,12 +51,17 @@
   text-shadow: 0px 2px 3px black;
 }
 .App-logo {
-  height: 45vmin;
+  float: left;
+  margin-top: 13px;
+  height: 20vmin;
+  padding: 1px;
+  margin: 20px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    border-radius: 90em;
-    box-shadow: 2px 5px 20px black;
+    shape-outside: circle();
+    clip-path: circle();
+    box-shadow: 0px 0px 2px black;
     transition: all 1s ease-out;
   }
 }

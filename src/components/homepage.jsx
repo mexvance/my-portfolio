@@ -58,11 +58,11 @@ const HomePage = props => {
               <div>WHY I WRITE CODE</div>
               <div className="title-bar"></div>
             </div>
-            <img src={logo} className="App-logo" alt="logo" />
             <div className="About-Description flex">
-              <div className="separator-bar"></div>
               <div className="about-content">
+          
                 <p className="description-title">Hi, I'm Mike Vance, </p>
+                <img src={logo} className="App-logo" alt="logo" />
                 <p>
                   I develop code because I want to help people connect and
                   improve their lives through technology.

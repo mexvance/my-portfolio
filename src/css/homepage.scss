@@ -17,6 +17,7 @@
 .part-00 {
   width: 100%;
   background: black;
+  overflow: hidden;
 }
 .flex {
   align-items: center;
@@ -26,14 +27,14 @@
 }
 .title {
   font-size: 2em;
-  text-shadow: 0px 2px 3px black;
+  text-shadow: 0px 2px 3px $black;
 }
 .title2 {
   font-size: 1.6em;
-  text-shadow: 0px 2px 3px black;
+  text-shadow: 0px 2px 3px $black;
 }
 .title span {
-  color: $Blue2Light;
+  color: $mainHighlight;
   text-shadow: 0px 2px 5px rgb(27, 27, 27);
   font-style: italic;
 }
@@ -42,11 +43,11 @@
   margin-top: -5px;
 }
 .App-link {
-  color: $Blue2Light;
+  color: $mainHighlight;
 }
 .App-link:hover {
   text-decoration: none;
-  color: $Blue2Light;
+  color: $mainHighlight;
   text-shadow: 0px 2px 3px black;
 }
 .App-logo {
@@ -61,13 +62,13 @@
 }
 
 .About-Me2 {
-  color: black;
+  color: $silver;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(104deg, $sand 30%, transparent 20%);
+  background-image: -webkit-linear-gradient(104deg, $secondaryColor 30%, transparent 20%);
 }
 .About-Me {
-  color: black;
-  background-color: $silver;
+  color: $silver;
+  background-color: $mainBackground;
   background-image: -webkit-linear-gradient(
     45deg,
     $mainBlue 22%,
@@ -128,25 +129,26 @@
 .About-Title {
   padding-top: 15px;
   font-size: 30pt;
-  color: black;
+  color: $secondaryColor;
 }
 .about-content {
   text-align: left;
   width: 65%;
-  background-color: rgba(255, 255, 255, 0.8);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  background-color: $silver;
   padding: 1em;
   border-radius: 3px;
   box-shadow: 0px 1px 4px black;
   transition: width ease-out 0.5s;
 }
 .title-bar {
-  background: black;
+  background: $mainHighlight;
   height: 4px;
   margin: 15px 0 60px 0;
   width: 100px;
 }
 .separator-bar {
-  background: black;
+  background: $mainHighlight;
   height: 4px;
   margin: 25px 0 75px 0;
   width: 60%;

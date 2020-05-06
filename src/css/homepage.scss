@@ -52,10 +52,9 @@
 }
 .App-logo {
   float: left;
-  margin-top: 13px;
   height: 20vmin;
   padding: 1px;
-  margin: 20px;
+  margin: 10px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -69,14 +68,14 @@
 .About-Me2 {
   color: $silver;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(104deg, $secondaryColor 30%, transparent 20%);
+  background-image: -webkit-linear-gradient(104deg, $lightBackground 30%, transparent 20%);
 }
 .About-Me {
   color: $silver;
   background-color: $mainBackground;
   background-image: -webkit-linear-gradient(
     45deg,
-    $mainBlue 22%,
+    $secondaryColor 22%,
     transparent 22%
   );
 }
@@ -134,7 +133,7 @@
 .About-Title {
   padding-top: 15px;
   font-size: 30pt;
-  color: $secondaryColor;
+  color: $mainHighlightDarker;
 }
 .about-content {
   text-align: left;
@@ -147,10 +146,10 @@
   transition: width ease-out 0.5s;
 }
 .title-bar {
-  background: $mainHighlight;
+  background: $secondaryColor;
   height: 4px;
   margin: 15px 0 60px 0;
-  width: 100px;
+  width: 250px;
 }
 .separator-bar {
   background: $mainHighlight;

@@ -119,11 +119,11 @@
   font-size: 1.2em;
 }
 .icon {
-  transform: rotate(0deg);
+  transform: scale(1);
   transition: all 0.4s;
 }
 .button:hover .icon {
-  transform: rotate(90deg);
+  transform: scale(1.2);
 }
 .About-Description {
   margin: auto;
@@ -137,13 +137,16 @@
 }
 .about-content {
   text-align: left;
-  width: 65%;
-  /*background-color: rgba(255, 255, 255, 0.8);*/
-  background-color: $silver;
-  padding: 1em;
+  width: 80%;
+  background-color: $lightBackgroundTransparent;
+  /*background-color: $silver;*/
+  padding: 1em 2em 1em 2em;
   border-radius: 3px;
   box-shadow: 0px 1px 4px black;
   transition: width ease-out 0.5s;
+}
+.about-content span {
+  color: $mainHighlight;
 }
 .title-bar {
   background: $secondaryColor;
@@ -157,6 +160,11 @@
   margin: 25px 0 75px 0;
   width: 60%;
 }
+
+.heroContent {
+  width: 70%;
+}
+
 @media (max-width: 1000px) {
   .about-content {
     width: 85%;

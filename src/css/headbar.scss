@@ -1,11 +1,12 @@
 @import "./palette.scss";
 
 .brand {
-  color: $Blue2Light !important;
+  color: $mainHighlight !important;
 }
 .navbar {
   box-shadow: 0 2px 4px black;
   font-size: 14pt;
+  background-color: $lightBackground;
 }
 .sticky {
   position: sticky;

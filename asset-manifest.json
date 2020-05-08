@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8fa432c9.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.bc07d9b9.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.bc07d9b9.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.2d1add17.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.d6ff77bb.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.d6ff77bb.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4a96037b.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4a96037b.js.map",
     "static/css/2.a1f70397.chunk.css": "/my-portfolio/static/css/2.a1f70397.chunk.css",
-    "static/js/2.783867a8.chunk.js": "/my-portfolio/static/js/2.783867a8.chunk.js",
-    "static/js/2.783867a8.chunk.js.map": "/my-portfolio/static/js/2.783867a8.chunk.js.map",
+    "static/js/2.e224d5b7.chunk.js": "/my-portfolio/static/js/2.e224d5b7.chunk.js",
+    "static/js/2.e224d5b7.chunk.js.map": "/my-portfolio/static/js/2.e224d5b7.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.4269bc23fb3841b52fa251cf028a9534.js": "/my-portfolio/precache-manifest.4269bc23fb3841b52fa251cf028a9534.js",
+    "precache-manifest.9764748c887f5df04fdb65787c5110e7.js": "/my-portfolio/precache-manifest.9764748c887f5df04fdb65787c5110e7.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.a1f70397.chunk.css.map": "/my-portfolio/static/css/2.a1f70397.chunk.css.map",
-    "static/css/main.8fa432c9.chunk.css.map": "/my-portfolio/static/css/main.8fa432c9.chunk.css.map",
-    "static/js/2.783867a8.chunk.js.LICENSE": "/my-portfolio/static/js/2.783867a8.chunk.js.LICENSE",
+    "static/css/main.2d1add17.chunk.css.map": "/my-portfolio/static/css/main.2d1add17.chunk.css.map",
+    "static/js/2.e224d5b7.chunk.js.LICENSE": "/my-portfolio/static/js/2.e224d5b7.chunk.js.LICENSE",
     "static/media/aspCMScard.PNG": "/my-portfolio/static/media/aspCMScard.3d750296.PNG",
     "static/media/greenbeancard.PNG": "/my-portfolio/static/media/greenbeancard.1ea098ee.PNG",
     "static/media/mikeIcon.jpg": "/my-portfolio/static/media/mikeIcon.2e81db28.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.4a96037b.js",
     "static/css/2.a1f70397.chunk.css",
-    "static/js/2.783867a8.chunk.js",
-    "static/css/main.8fa432c9.chunk.css",
-    "static/js/main.bc07d9b9.chunk.js"
+    "static/js/2.e224d5b7.chunk.js",
+    "static/css/main.2d1add17.chunk.css",
+    "static/js/main.d6ff77bb.chunk.js"
   ]
 }

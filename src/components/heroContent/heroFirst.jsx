@@ -3,12 +3,18 @@ import { MdArrowForward } from "react-icons/md";
 import "../../css/homepage.scss";
 
 const HeroFirst = props => {
+    let contentCSS = 'title';
     const handleClick = () => {
         props.setButtonClicked(true);
+        props.setButtonHovered(false);
+        contentCSS = 'title heroHide'
+    };
+    const handleHovered = (isHovered) => {
+        props.setButtonHovered(isHovered);
     };
     return(
         <>
-        <p className="title">
+        <p className={contentCSS}>
                 <p>I Believe <span>Code</span> </p>
                 <p>should bring <span>People</span> together</p>
               </p>
@@ -19,6 +25,8 @@ const HeroFirst = props => {
                   className="button"
                   type="button"
                   onClick={() => handleClick()}
+                  onMouseEnter={(isHovered)=> handleHovered(true)}
+                  onMouseLeave={(isHovered)=> handleHovered(false)}
                 >
                   That is why I develop it
                   <span className="arrowIcon">

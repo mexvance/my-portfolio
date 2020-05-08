@@ -3,16 +3,21 @@
 .part-01 {
   width: calc(100vw +10px);
   height: calc(100vh - 55px);
-  overflow: hidden;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(../resources/action-blur-bulb-dark-355904.jpg),
-    rgba(0, 0, 0, 0.5);
+  //background: url(../resources/action-blur-bulb-dark-355904.jpg),
+    //rgba(0, 0, 0, 0.5);
+    background: -webkit-linear-gradient(104deg, $lightBackground 30%, transparent 0%), -webkit-linear-gradient(
+      45deg,
+      $secondaryColor 15%,
+      transparent 0%
+    );;
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .part-00 {
   width: 100%;
@@ -52,32 +57,35 @@
 }
 .App-logo {
   float: left;
-  height: 20vmin;
+  height: 21vmin;
   padding: 1px;
-  margin: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     shape-outside: circle();
     clip-path: circle();
     box-shadow: 0px 0px 2px black;
-    transition: all 1s ease-out;
+    transition: all .3s ease-out;
   }
 }
 
 .About-Me2 {
   color: $silver;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(104deg, $lightBackground 30%, transparent 20%);
+  overflow: hidden;
+  //background-image: -webkit-linear-gradient(104deg, $lightBackground 30%, transparent 20%);
 }
 .About-Me {
   color: $silver;
   background-color: $mainBackground;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    $secondaryColor 22%,
-    transparent 22%
-  );
+  // background-image: -webkit-linear-gradient(
+  //   45deg,
+  //   $secondaryColor 22%,
+  //   transparent 22%
+  // );
 }
 .description-title {
   text-align: center;

@@ -9,19 +9,23 @@ const HomepageHero = (props) => {
         let xPos = event.pageX;
         let yPos = event.pageY;
         event.currentTarget.style.backgroundPosition =
-            -xPos / 90 + "px " + -yPos / 200 + "px";
+            xPos / 5 + "px " + xPos / 25 + "px," +
+            -xPos / 20 + "px " + yPos / 5 + "px";
     };
-  
+  React.useEffect(() => {
+    // do stuff
+    return () => {} 
+}, [buttonClicked])
   return (
     <>
-      <div className="background">
-        <div className="part-00">
+       <div id="about" className="About-Me">
+          <div className="About-Me2">
           <div
             id="part-01"
             className="part-01"
             onMouseMove={(event) => paralaxMove(event)}
           >
-            <div className="flex heroContent">
+                     <div className="flex heroContent">
               {buttonClicked === false ? (<HeroFirst setButtonClicked={setButtonClicked}/>) : <HeroAbout/>}
             </div>
           </div>

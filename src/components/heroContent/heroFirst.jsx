@@ -20,7 +20,7 @@ const HeroFirst = props => {
                   type="button"
                   onClick={() => handleClick()}
                 >
-                  Let me show you why
+                  That is why I develop it
                   <span className="arrowIcon">
                     <MdArrowForward className="icon" />
                   </span>

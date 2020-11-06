@@ -34,6 +34,7 @@ const HomepageHero = (props) => {
             //onMouseMove={(event) => paralaxMove(event)}
           >
                      <div className="flex heroContent">
+                     Hello I actually don't know where this will go
               {buttonClicked === false ? (<HeroFirst setButtonClicked={setButtonClicked} setButtonHovered={setButtonHovered}/>) : <HeroAbout/>}
             </div>
           </div>
